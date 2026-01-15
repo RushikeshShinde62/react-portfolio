@@ -1,43 +1,33 @@
 export default function Code() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
-
-      <div className="mockup-code w-full text-sm md:text-base">
-        <pre data-prefix="$">
+    <section className="max-w-4xl mx-auto px-4">
+      <div className="mockup-code w-full text-sm py-6 md:text-base">
+        
+        <pre data-prefix="$" className="whitespace-nowrap overflow-x-auto">
           <code>whoami</code>
         </pre>
-        <pre data-prefix=">" className="text-red-500">
+        <pre data-prefix=">" className="text-red-500 whitespace-nowrap overflow-x-auto">
           <code>Rushikesh Shinde</code>
         </pre>
 
-        <pre data-prefix="$">
+        <pre data-prefix="$" className="whitespace-nowrap overflow-x-auto">
           <code>about --summary</code>
         </pre>
-        <pre data-prefix=">">
-          <code className="text-green-500">
-            Full-stack–focused Software Engineer with experience in building
-            responsive web applications using modern technologies.
-          </code>
+        <pre data-prefix=">" className="text-green-500 whitespace-nowrap overflow-x-auto">
+          <code>Full-stack software engineer</code>
         </pre>
-        <pre data-prefix=">" className="text-green-500">
-          <code>
-            Skilled in React, Node.js, Express, Tailwind CSS, and Supabase,
-            with a strong foundation in JavaScript and SQL.
-          </code>
+        <pre data-prefix=">" className="text-green-500 whitespace-nowrap overflow-x-auto">
+          <code>Experienced in Node.js, Express, Tailwind CSS</code>
         </pre>
-        <pre data-prefix=">" className="text-green-500">
-          <code>
-            I enjoy creating clean, reusable components and scalable
-            features that solve real-world problems.
-          </code>
+        <pre data-prefix=">" className="text-green-500 whitespace-nowrap overflow-x-auto">
+          <code>Builds reusable components and scalable features</code>
         </pre>
 
-        <pre data-prefix="$">
+        <pre data-prefix="$" className="whitespace-nowrap overflow-x-auto">
           <code>location</code>
         </pre>
-        <pre data-prefix=">" className="text-green-500">
-          <code>Nasik, India</code>
+        <pre data-prefix=">" className="text-green-500 whitespace-nowrap overflow-x-auto">
+          <code>Pune, India</code>
         </pre>
       </div>
     </section>
