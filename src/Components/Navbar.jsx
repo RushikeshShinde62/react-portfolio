@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return <>
-    <div className="navbar fixed bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,18 +22,18 @@ export default function Navbar() {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-<li><a>About</a></li>
-<li><a>Education</a></li>
-<li><a>Skills</a></li>
-<li><a>Projects</a></li>
-<li><a>Experience</a></li>
-<li><a>Certifications</a></li>
-<li><a>Contact</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Home</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>About</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Education</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Skills</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Projects</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Experience</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Certifications</a></li>
+      <li className="hover:bg-white hover:text-black rounded-lg "><a>Contact</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-white">Resume</a>
+    <a className="btn btn-primary">Resume</a>
   </div>
 </div>
 </>}
