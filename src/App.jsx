@@ -19,7 +19,7 @@ function App() {
       <About />
       <div className='h-[400px] w-[750px] border-2 rounded-lg border-gray-300 my-12 flex items-center justify-center ms-4'>
     <FallingText
-      key={resetKey}   // 👈 forces remount
+      key={resetKey}  
       text={`hover to see magic, If the layout shifts when you hover, that is part of the design.
 The web should feel responsive, alive, and aware of the user.`}
       highlightWords={["layout", "responsive", "web", "user", "hover","magic"]}
@@ -31,7 +31,6 @@ The web should feel responsive, alive, and aware of the user.`}
       fontSize="2rem"
       mouseConstraintStiffness={0.9}
     /> 
-    {/* Reset Button */}
       <div className="bg-base">
         <button
           onClick={handleReset}
