@@ -15,8 +15,9 @@ function App() {
       <div className='h-[200px] border-t-2 border-b-2 border-gray-300 my-20 flex items-center justify-center'>
 
     <FallingText
-      text={`React Bits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
-      highlightWords={["React", "Bits", "animated", "components", "simplify"]}
+      text={`hover to see magic, If the layout shifts when you hover, that is part of the design.
+The web should feel responsive, alive, and aware of the user.`}
+      highlightWords={["layout", "responsive", "web", "user", "hover","magic"]}
       highlightClass="highlighted"
       trigger="hover"
       backgroundColor="transparent"
