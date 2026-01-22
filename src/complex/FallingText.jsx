@@ -4,7 +4,7 @@ import Matter from 'matter-js';
 const FallingText = ({
   text = '',
   highlightWords = [],
-  trigger = 'auto',
+  trigger = 'auto', 
   backgroundColor = 'transparent',
   wireframes = false,
   gravity = 1,
